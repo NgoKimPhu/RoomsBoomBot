@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/NgoKimPhu/RoomsBoomBot#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2"
   }
 }
