@@ -1,9 +1,8 @@
 var express = require('express');
-var bodyParser = require('body-parser');
 var app = express();
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json({ strict: false, type() { return true; } }));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json({ strict: false, type() { return true; } }));
 
 app.post('/start', function(req, res) {
   if (req.query.secret != process.env.secret) {
