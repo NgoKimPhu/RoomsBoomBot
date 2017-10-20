@@ -1,0 +1,31 @@
+{
+  "name": "roomsboom-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for the game Two Rooms and a Boom",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgoKimPhu/RoomsBoomBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "two",
+    "rooms",
+    "and",
+    "a",
+    "boom"
+  ],
+  "author": "Ngo Kim Phu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NgoKimPhu/RoomsBoomBot/issues"
+  },
+  "homepage": "https://github.com/NgoKimPhu/RoomsBoomBot#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
